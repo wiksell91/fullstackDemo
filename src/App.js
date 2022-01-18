@@ -5,7 +5,7 @@ import {
     Layout,
     Menu,
     Breadcrumb,
-    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio
+    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio, Image
 } from 'antd';
 import {
     DesktopOutlined,
@@ -207,7 +207,11 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By V.W</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image
+                    width={75}
+                    src ="https://user-images.githubusercontent.com/48246128/149966004-56a971da-e604-4e08-9487-e7ed7ff6d2c6.png"/>
+            </Footer>
         </Layout>
     </Layout>
 }
